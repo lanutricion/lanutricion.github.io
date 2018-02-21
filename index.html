@@ -1,0 +1,48 @@
+﻿<head>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<embed src="files/music.mp3" height="0" width="0" loop="true" autostart="true" hidden="true" />
+</head>
+<body>
+	<center>
+		<div class="nav">
+			<div class="title"></div>
+			<div class="author"></div>
+		</div>
+		<video autoplay loop id="video-background" muted plays-inline>
+                <source src="files/video.mp4" type="video/mp4">
+		</video>
+		<div class="post" id="post1">
+			<div class="titleDiv">Lo demas y la conclusion</div>
+			<div class="content">Nosotros tendemos a enfocarnos más en la proteína o en los granos de nuestra dieta porque la verdad son mas ricas y uno se agrada mas en comerselas. Sin embargo, hay que aprender a medir nuestro consumo en esta mitad del plato porque el desequilibrio de este plato es uno de los primeros factores de una enfermedad relacionada con el exceso del consumo o el desafio del consumo. Anormalidades de como manejamos el plato también pueden ser muy adictivas como la bulimia o la anorexia. Para ser saludable y aprovechar tu cuerpo al 100%, es muy importante manejar nuestro plato individual con cuidado. Gracias por su atencion :)</div>
+			<br>
+			<img src="files/img4.jpg" width="300" height="200">
+		</div>
+		<div class="post">
+			<div class="titleDiv">Las Verduras</div>
+			<div class="content">Igual que las frutas, las verduras son importantes por la abundancia de vitaminas por las que contienen. También, similar a las frutas, pueden reducir mucho la posibilidad de tener una cierta anormalidad en tu cuerpo.</div>
+			<br>
+			<img src="files/img3.png" width="200" height="200">
+		</div>
+		<div class="post">
+			<div class="titleDiv">Las Frutas</div>
+			<div class="content">Las frutas poseen una importancia enorme en la dieta cotidiana. Están llenas de vitamina A, C y E que también son muy importantes para el desarrollo del cuerpo. Además, reducen las posibilidades de atraer diabetes, un derrame cerebral y muchas otras enfermedades y anormalidades corporales.</div>
+			<br>
+			<img src="files/img2.jpg" width="400" height="300">
+		</div>
+		<div class="post">
+			<div class="titleDiv">Introduccion</div>
+			<div class="content">La nutrición se refiere a la administración de lo que nos alimentamos y lo que metemos a nuestro cuerpo. Se requiere un equilibrio entre los diferentes tipos de comida para ser saludable, y esto es lo que voy a intenter a transmitir en esta exposición.</div>
+			<br>
+			<img src="files/img1.png" width="340" height="300">
+		</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="files/config.json"></script>
+	<script>
+		$(function(){
+			console.log("something");
+			$(".title").text(data.title);
+			$(".author").text(data.author);
+		});
+	</script>
+</body>
